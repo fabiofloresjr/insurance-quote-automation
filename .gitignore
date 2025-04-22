@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+
+# Logs e arquivos temporários
+logs/
+*.log
+npm-debug.log*
+
+# Arquivos de ambiente
+.env
+.env.local
+.env*.local
+
+# Arquivos de sistema
+.DS_Store
+.thumbs.db
+
+# Arquivos gerados pelo projeto
+cotacoes_*.xlsx
+backup_*.json
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
